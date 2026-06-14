@@ -17,6 +17,7 @@ An Agent Skill is a folder containing a `SKILL.md` file with YAML frontmatter (`
 | [`assessment-design`](skills/assessment-design/SKILL.md) | Design quiz questions, knowledge checks, and assessments that go beyond recall, using Bloom's Taxonomy as a prompt lever for application-level items. |
 | [`microlearning-design`](skills/microlearning-design/SKILL.md) | Design the *structure* of short, focused microlearning sessions (3–10 min) around one behavior change. |
 | [`content-editing`](skills/content-editing/SKILL.md) | Review and improve AI-generated L&D content with a 5-fault-line editing framework — the "First-Draft Machine" approach. |
+| [`storyboard`](skills/storyboard/SKILL.md) | Turn a course outline or scene plan into a prioritized multimedia production plan — decide per scene whether it needs an infographic, animation, video, interactive scenario, or plain text, with the didactic reasoning. |
 | [`instructional-prompt-engineering`](skills/instructional-prompt-engineering/SKILL.md) | Write better AI prompts for any L&D content using a 4-ingredient formula: Role, Audience, Bloom's level, Constraints, Task. |
 
 ### How the skills fit together
@@ -29,6 +30,9 @@ needs-analysis ──▶ learning-objectives ──▶ didactic-reduction
         scenario-generation   assessment-design     microlearning-design
                   │                   │                      │
                   └───────────────────┴──────────┬───────────┘
+                                                   ▼
+                                              storyboard
+                                                   │
                                                    ▼
                                            content-editing
 
@@ -84,6 +88,7 @@ skills/
 ├── assessment-design/SKILL.md
 ├── microlearning-design/SKILL.md
 ├── content-editing/SKILL.md
+├── storyboard/SKILL.md
 └── instructional-prompt-engineering/SKILL.md
 ```
 
