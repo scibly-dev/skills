@@ -23,7 +23,7 @@ Analyze the pasted content against these five fault lines. For each issue found,
 ### Fault Line 1: Tone mismatch
 AI defaults to formal, corporate-sounding language. Check: does this sound like how the target audience actually talks at work? Flag jargon, passive voice, and HR-speak.
 
-*Red flags*: "It is important to note that...", "Employees should ensure that...", "In order to facilitate...", any sentence longer than 25 words.
+*Red flags*: "It is important to note that...", "Employees should ensure that...", "In order to facilitate...", any sentence longer than 25 words, em/en dashes used as a sentence connector (a well-known AI tell; replace with a period, comma, or rewrite the sentence).
 
 ### Fault Line 2: Accuracy gaps
 AI generates plausible-sounding content that may be wrong. Check: are there specific claims, statistics, regulatory details, or technical steps that need human verification? Flag anything that "sounds made up" or unusually specific without a source.
@@ -35,7 +35,7 @@ AI pitches content at the wrong level — over-explaining basics to experts, or 
 AI explains the *what* but skips the *so what*. Check: does the content tell the learner why this matters to *them* specifically? Is there a "you" in the content?
 
 ### Fault Line 5: Structural problems
-AI sometimes buries the main point, over-uses bullets, or creates walls of text. Check: is the main point visible within the first two sentences? Does structure serve the reader or just make the content look complete?
+AI sometimes buries the main point, over-uses bullets, or creates walls of text. Check: is the main point visible within the first two sentences? Does structure serve the reader or just make the content look complete? On mobile-first or short-form content, also check for heading-overuse (H1/H2/H3 stacked every paragraph): bold key phrases inline instead of a new heading for every sub-point; it reads better on a small screen and doesn't fragment short content into artificial sections.
 
 ## Step 3 — Produce the edited version
 
@@ -81,10 +81,12 @@ STRUCTURE
 □ Main point visible within the first 2 sentences?
 □ No bullet list with more than 5 items?
 □ No paragraph longer than 4 sentences?
+□ Short-form/mobile content: bold for emphasis instead of a new heading per sub-point?
 
 RED FLAGS (fix immediately)
 □ "In conclusion..." → cut
 □ "In order to..." → replace with "To"
 □ Any stat without a source → verify or remove
 □ Definitions the audience already knows → cut
+□ Em/en dash used as a connector → replace (common AI tell)
 ```

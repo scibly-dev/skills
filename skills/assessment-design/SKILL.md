@@ -5,7 +5,7 @@ description: Assessment Design with AI for L&D teams. Use this skill when an ins
 
 # Assessment Design with AI
 
-Most AI-generated questions are too easy — they test recognition, not learning. This skill shows you how to use Bloom's taxonomy as a prompt lever to get application-level questions with quality distractors and feedback that actually teaches.
+Most AI-generated questions are too easy — they test recognition, not learning. Worse, a common AI failure mode is testing the wrong *thing* entirely: quizzing an exact percentage, date, or phrase pulled from the source text instead of whether the learner can actually use the underlying skill. A learner can memorize "73%" and still fail to apply the concept it came from; that's not transfer, it's trivia. This skill shows you how to use Bloom's taxonomy as a prompt lever to get application-level questions with quality distractors and feedback that actually teaches.
 
 ## Step 1 — Understand the assessment context
 
@@ -55,6 +55,7 @@ Review generated questions against these criteria and flag issues:
 | Distractors are plausible | Wrong answers reflect real misconceptions, not obvious nonsense |
 | Stem is unambiguous | Learner knows exactly what's being asked without re-reading |
 | Bloom's level is correct | Apply questions require doing something, not just recognizing a term |
+| Tests transfer, not trivia | The question checks whether the learner can use the concept, not whether they memorized an exact figure, date, or phrase from the source material |
 | Feedback teaches | Correct answer feedback explains WHY, not just "Correct!" |
 | No giveaways | The right answer isn't the longest, most formal, or most cautious option |
 

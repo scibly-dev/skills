@@ -19,13 +19,15 @@ Ask the user:
 
 ## Step 2 — Apply the microlearning formula
 
-Three non-negotiables for effective microlearning:
+Non-negotiables for effective microlearning:
 
 | Element | Why it matters |
 |---------|---------------|
 | **One objective** | Cognitive load kills retention — one clear target beats three vague ones |
 | **One behavior change** | "Learners will understand X" is not a behavior. Understanding isn't visible. |
-| **One moment of practice** | Even 30 seconds of retrieval doubles retention vs. passive consumption |
+| **No concept without immediate practice** | Every concept scene gets its own practice scene directly after it, not "one practice moment somewhere in the session." A concept the learner never has to use is content they will not retain, no matter how well it's explained. |
+| **Resurfacing, not one-and-done** | A single pass rarely survives past the session. Plan for the core concept to reappear at least once more, in a different scene/format within the session, and ideally in a short spaced-review touchpoint days later. |
+| **A decision, not a manual** | If several scenes in a row describe the same tool, feature, or process from different angles with no "given this situation, what do you do" moment, it's documentation cut into scenes, not microlearning. Every session should build toward at least one real decision. |
 
 Formalize the focus before designing anything:
 
@@ -53,11 +55,12 @@ Time budget: [X minutes maximum]
 Source content: [paste content or describe topic]
 
 Design a microlearning structure:
-- Total scenes: 3–5 (maximum)
+- Total scenes: scale to the content, not a fixed count. Every scene holds exactly ONE thing: one explanation OR one interaction, never both, never two ideas at once. A topic with several natural sub-parts should become several thin one-idea scenes rather than 2-3 dense ones; more, thinner scenes read like a good consumer app, fewer, denser ones read like a slide deck. Only add scenes that carry a distinct idea, never pad to hit a number.
 - Scene 1 (Hook, ~45 sec): Opens with why this matters RIGHT NOW to the learner. A consequence, a scenario, or a provocative question. No definitions, no "in this module you will learn".
-- Scene 2–3 (Concept, ~90 sec each): The essential core only — one idea per scene, shown through a specific example relevant to the learner's job. Max 80 words of prose per scene.
-- Scene 4 (Practice, ~60 sec): A decision or recall moment — not a memory test, but something that requires applying the concept. Include 2 sentences explaining why the correct answer is correct.
-- Scene 5 (Summary + action, ~30 sec): 2 bullets: what was learned + one specific thing to do or notice next time. No new information.
+- Scene 2–N (Concept, ~40-80 sec each): The essential core only, one idea per scene, shown through a specific example relevant to the learner's job. Max 80 words of prose per scene. **Every Concept scene is immediately followed by its own Practice scene on that exact idea** — never two Concept scenes in a row, and never a Concept scene with no paired Practice anywhere. If a concept doesn't earn a practice moment, it doesn't earn a scene either: fold it into another scene's example or cut it.
+- Practice scene(s) (~60 sec each): A decision or recall moment, not a memory test, but something that requires applying the concept just shown. Include 2 sentences explaining why the correct answer is correct.
+- Resurface at least one earlier concept in a later scene or practice question, in a new example — not the same question restated. Don't let ideas appear exactly once and never again.
+- Last (Summary + action, ~30 sec): 2 bullets: what was learned + one specific thing to do or notice next time. No new information.
 
 For each scene output:
 - Scene title (5 words max)
@@ -66,6 +69,8 @@ For each scene output:
 ```
 
 Show the generated structure to the user and calibrate before scripting.
+
+**Spaced review:** a single session rarely survives contact with a busy week. If the platform/tooling supports it, recommend a short (1-2 question) review touchpoint 3-7 days after the initial session, re-testing the same behavior with a new example rather than the same question. If the platform can't schedule that automatically, at minimum tell the user this is a known gap so they can plan around it manually.
 
 ## Step 4 — Script the two hardest scenes
 
@@ -85,7 +90,7 @@ Role: Expert microlearning designer.
 Behavior change: After this, [learner role] will [behavior] when [situation].
 Context: [role, access method, time budget].
 Source: [paste content].
-Generate a 3–5 scene structure: Hook → Concept(s) → Practice → Summary.
+Generate a scene structure: Hook → Concept(s) → Practice(s) → Summary. Scale scene count to the content: one idea per scene, more thin scenes over few dense ones. Every Concept scene is immediately followed by its own Practice scene on that idea, never two Concept scenes in a row. Resurface at least one earlier concept later in the flow instead of covering everything exactly once.
 Per scene: title (5 words max), content (80 words max), visual suggestion.
 
 --- Hook writer ---
@@ -105,4 +110,7 @@ Read this microlearning content. For each scene, answer:
 2. Could a learner complete this scene without thinking?
 3. After finishing, what would they do differently at work?
 If scene 1 or 2 answers "consuming" or "yes" to Q2, rewrite to increase active engagement.
+
+--- Documentation-in-disguise test (apply before finalizing) ---
+Read this microlearning content. If 3 or more scenes in a row describe the same single tool, feature, or process from different angles (what it is, how to configure it, its limits, its history), answer: is there a concrete "given this situation, what do you do" decision these scenes are building toward, or is this just a manual cut into short scenes? If you can't name the decision, this content belongs in reference documentation, not a microlearning session — cut it down to the one decision that actually matters and drop the rest.
 ```

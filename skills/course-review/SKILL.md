@@ -48,6 +48,8 @@ Read through the course scene by scene, putting yourself in the persona's positi
 
 Then identify the **moments of friction** — the specific point(s) where a real person in this role would hesitate, skim, or close the tab.
 
+**One friction pattern deserves its own check: documentation wearing a course's clothes.** If three or more scenes/sections in a row describe the same single tool, feature, or process from different angles (what it is, how to configure it, its limits) with no moment where the persona actually has to decide something, that's a manual cut into course-shaped pieces, not a course. Flag it by name — this reads as thorough content but is actually the persona's biggest reason to disengage, since nothing asks them to think.
+
 ---
 
 ## Step 4 — Produce the review
