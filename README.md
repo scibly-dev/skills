@@ -41,6 +41,14 @@ instructional-prompt-engineering — used across every step above
 
 You don't need to use them in order or all together — each skill works standalone, but they're designed to hand off to each other naturally (e.g. `learning-objectives` points to `assessment-design` and `microlearning-design` once objectives are defined).
 
+## Dev tools
+
+Everything above is an L&D methodology. This one isn't — it's a general-purpose repo-visualization skill that happens to live here rather than in a separate repo. Called out on its own so the catalog above stays a clean L&D reading list.
+
+| Skill | What it does |
+|---|---|
+| [`knowledge-graph`](skills/knowledge-graph/SKILL.md) | Builds an interactive, force-directed knowledge graph of a codebase or docs repo (or several repos at once) as a self-contained HTML page — every real file a node, every real cross-reference or import an edge, full file content behind a click. Useful for onboarding into an unfamiliar repo or getting an overview of how a codebase's pieces connect. |
+
 ## Installation
 
 ### Recommended: `npx skills`
@@ -89,7 +97,8 @@ skills/
 ├── microlearning-design/SKILL.md
 ├── content-editing/SKILL.md
 ├── storyboard/SKILL.md
-└── instructional-prompt-engineering/SKILL.md
+├── instructional-prompt-engineering/SKILL.md
+└── knowledge-graph/SKILL.md   # dev tools, not L&D — see "Dev tools" above
 ```
 
 Each skill is a single self-contained `SKILL.md` file in its own folder — one canonical copy per skill, installable into any supported agent.
